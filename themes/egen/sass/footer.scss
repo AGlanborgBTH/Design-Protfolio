@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(200, 200, 200);
+    padding-left: 30px;
+    padding-right: 10px;
+    flex: 0 0 auto;
+
+    p {
+        line-height: 32px;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+    
+}
+
+.social {
+    a {
+        display: inline-block;
+        height: 32px;
+    }
+}

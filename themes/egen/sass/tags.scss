@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lustria', 'Quantico', sans-serif;
+    line-height: 1.5rem;
+    background-color: rgb(30, 30, 30);
+    color: rgb(225, 225, 225);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 0.3em;
+    background: rgb(30, 30, 30);
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 0.3em;
+    background: rgb(30, 30, 30);
+
+    code {
+        display: block;
+        margin: 0;
+        padding: 1.1111em 0;
+        border: 0 none;
+        background: transparent;
+        overflow-x: auto;
+        line-height: 1.4;
+    }
+}
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid rgb(30, 30, 30);
+}
+
+a {
+    color: #ffc0cb;
+    
+    &:visited {
+        color: #dda0dd;
+    }
+}
+
+ol,
+
+ul {
+    padding-left: 1.5em;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}

@@ -6,19 +6,7 @@
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
-        {% if pages["_meta"].meta.logo %}
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
-            <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
-            <span class="sr-only">Toggle Menu</span>
-        </a>
     </div>
-    <div class="logo">
-            <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-            </a>
-        </div>
-        {% endif %}
     <div class="nav">
         <div id="nav" role="navigation" tabindex="-1">
             <ul>

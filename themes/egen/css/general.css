@@ -1,0 +1,26 @@
+.centering {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.restraint {
+  max-width: 1700px;
+  min-height: 100vh;
+  background-color: #282828;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  padding-left: 50px;
+  padding-right: 50px;
+  flex: 1 0 auto;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/*# sourceMappingURL=general.css.map */

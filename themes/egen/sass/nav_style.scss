@@ -1,0 +1,27 @@
+.header {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    padding: 3rem;
+
+    @media (max-width: 767px) {
+        padding-top: 1em;
+        min-width: 50%;
+    }
+
+    * {
+        color: rgb(225, 225, 225);
+    }
+
+    p {
+        font-style: italic;
+    }
+}
