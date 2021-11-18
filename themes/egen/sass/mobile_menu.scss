@@ -10,7 +10,7 @@
         padding: 1em 0;
         list-style: none;
     }
-    @media (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         ul {
             flex-direction: column;
             padding-bottom: 1em;
@@ -40,14 +40,14 @@
 
 .header {
 
-    @media (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         flex-direction: column;
     }
 }
 
 .js {
 
-    @media (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         .nav-toggle {
             display: block;
             float: right;

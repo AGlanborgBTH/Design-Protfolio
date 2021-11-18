@@ -32,28 +32,36 @@ pre {
   border: 1px solid #c8c8c8;
   border-radius: 0.3em;
   background: #1e1e1e;
+  white-space: pre-wrap;
 }
 pre code {
   display: block;
   margin: 0;
-  padding: 1.1111em 0;
   border: 0 none;
   background: transparent;
   overflow-x: auto;
   line-height: 1.4;
 }
+@media screen and (min-width: 1281px) {
+  pre code {
+    padding: 1.1111em 0;
+  }
+}
 
 blockquote {
   font-style: italic;
-  margin-left: 1em;
-  padding-left: 1em;
   border-left: 0.5em solid #1e1e1e;
+}
+@media screen and (min-width: 1281px) {
+  blockquote {
+    margin-left: 1em;
+    padding-left: 1em;
+  }
 }
 
 a {
   color: #ffc0cb;
 }
-
 a:visited {
   color: #dda0dd;
 }
@@ -68,7 +76,6 @@ td,
 th,
 li,
 dd {
-  text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
