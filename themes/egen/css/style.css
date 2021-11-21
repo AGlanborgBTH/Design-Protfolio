@@ -4,6 +4,8 @@
 @import 'tags.css';
 @import 'general.css';
 @import 'mobile_menu.css';
+@import 'technologies.css';
+@import 'technology.css';
 * {
   box-sizing: border-box;
   border: 0 none;
