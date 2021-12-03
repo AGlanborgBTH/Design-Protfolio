@@ -1,0 +1,64 @@
+.reportBox {
+  margin: auto;
+  height: 50px;
+  width: 50px;
+}
+
+.reportImg {
+  border: outset 10px #1e1e1e;
+}
+@media screen and (min-width: 1281px) {
+  .reportImg {
+    margin-right: 20px;
+    width: 500px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .reportImg {
+    margin-top: 20px;
+    width: 500px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .reportImg {
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+  }
+}
+
+.imgRow {
+  display: flex;
+}
+@media screen and (min-width: 1281px) {
+  .imgRow {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .imgRow {
+    flex-direction: column;
+  }
+}
+
+.typsnittTable {
+  margin: 10px;
+  border: 1px solid #1e1e1e;
+}
+.typsnittTable thead td {
+  background-color: #323232;
+}
+.typsnittTable td {
+  border: 1px solid #1e1e1e;
+  padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  .typsnittTable td {
+    max-width: 75px;
+    white-space: pre-wrap;
+  }
+}
+
+/*# sourceMappingURL=analysis.css.map */

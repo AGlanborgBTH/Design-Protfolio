@@ -14,7 +14,7 @@
 }
 
 .restraint {
-    background-color: rgb(40, 40, 40);
+    background-color: $background-color;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

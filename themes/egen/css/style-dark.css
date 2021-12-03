@@ -392,7 +392,7 @@ template {
   }
 }
 .title * {
-  color: #141414;
+  color: #e1e1e1;
 }
 .title p {
   font-style: italic;
@@ -403,7 +403,7 @@ template {
   justify-content: space-between;
   border-top-width: 1px;
   border-top-style: solid;
-  border-top-color: #0a0a0a;
+  border-top-color: #c8c8c8;
   flex: 0 0 auto;
 }
 @media screen and (min-width: 1281px) {
@@ -443,8 +443,8 @@ html {
 body {
   font-family: "Lustria", "Quantico", sans-serif;
   line-height: 1.5rem;
-  background-color: gainsboro;
-  color: #141414;
+  background-color: #1e1e1e;
+  color: #e1e1e1;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -457,9 +457,9 @@ img {
 code {
   margin: 0 0.1em;
   padding: 0.1em 0.2em;
-  border: 1px solid #0a0a0a;
+  border: 1px solid #c8c8c8;
   border-radius: 0.3em;
-  background: gainsboro;
+  background: #1e1e1e;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -467,9 +467,9 @@ code {
 
 pre {
   padding: 0 1em;
-  border: 1px solid #0a0a0a;
+  border: 1px solid #c8c8c8;
   border-radius: 0.3em;
-  background: gainsboro;
+  background: #1e1e1e;
   white-space: pre-wrap;
 }
 pre code {
@@ -488,7 +488,7 @@ pre code {
 
 blockquote {
   font-style: italic;
-  border-left: 0.5em solid #c8c8c8;
+  border-left: 0.5em solid #1e1e1e;
 }
 @media screen and (min-width: 1281px) {
   blockquote {
@@ -498,10 +498,10 @@ blockquote {
 }
 
 a {
-  color: #3737c8;
+  color: #ffc0cb;
 }
 a:visited {
-  color: #1e1eb4;
+  color: #dda0dd;
 }
 
 td {
@@ -551,7 +551,7 @@ h6 {
 }
 
 .restraint {
-  background-color: #e6e6e6;
+  background-color: #282828;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -712,7 +712,7 @@ h6 {
   justify-content: center;
 }
 .grid a {
-  background: linear-gradient(to bottom right, #c8c8c8, #8c8c8c 85%);
+  background: linear-gradient(to bottom right, #646464, #282828 85%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   height: 250px;
   width: 250px;
@@ -752,13 +752,13 @@ h6 {
 
 @media screen and (min-width: 1281px) {
   .aside-style {
-    border-right: 1px solid #c8c8c8;
+    border-right: 1px solid #1e1e1e;
     padding: 30px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .aside-style {
-    border-right: 1px solid #c8c8c8;
+    border-right: 1px solid #1e1e1e;
     padding-right: 10px;
   }
 }
@@ -782,7 +782,7 @@ h6 {
 }
 
 .reportImg {
-  border: outset 10px #c8c8c8;
+  border: outset 10px #1e1e1e;
 }
 @media screen and (min-width: 1281px) {
   .reportImg {
@@ -824,15 +824,15 @@ h6 {
   margin: 10px;
   border-width: 1px;
   border-style: solid;
-  border-color: #c8c8c8;
+  border-color: #1e1e1e;
 }
 .typsnittTable thead td {
-  background-color: #f0f0f0;
+  background-color: #323232;
 }
 .typsnittTable td {
   border-width: 1px;
   border-style: solid;
-  border-color: #c8c8c8;
+  border-color: #1e1e1e;
   padding: 5px;
 }
 @media screen and (max-width: 768px) {

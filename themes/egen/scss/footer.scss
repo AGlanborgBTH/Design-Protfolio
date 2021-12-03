@@ -1,7 +1,9 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid rgb(200, 200, 200);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: $border-contrast;
     flex: 0 0 auto;
 
     @media screen and (min-width: 1281px) {
@@ -17,11 +19,11 @@
     p {
         line-height: 32px;
         font-size: 14px;
+        margin: 0px;
     }
 
     .social {
         font-size: 2rem;
-        margin-left: 5px;
     }
 
     .icon-hold {

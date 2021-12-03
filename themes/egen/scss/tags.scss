@@ -5,8 +5,8 @@ html {
 body {
     font-family: 'Lustria', 'Quantico', sans-serif;
     line-height: 1.5rem;
-    background-color: rgb(30, 30, 30);
-    color: rgb(225, 225, 225);
+    background-color: $background-darker;
+    color: $color;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -19,9 +19,9 @@ img {
 code {
     margin: 0 0.1em;
     padding: 0.1em 0.2em;
-    border: 1px solid rgb(200, 200, 200);
+    border: 1px solid $border-contrast;
     border-radius: 0.3em;
-    background: rgb(30, 30, 30);
+    background: $background-darker;
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
@@ -29,9 +29,9 @@ code {
 
 pre {
     padding: 0 1em;
-    border: 1px solid rgb(200, 200, 200);
+    border: 1px solid $border-contrast;
     border-radius: 0.3em;
-    background: rgb(30, 30, 30);
+    background: $background-darker;
     white-space: pre-wrap;
 
     code {
@@ -50,7 +50,7 @@ pre {
 
 blockquote {
     font-style: italic;
-    border-left: 0.5em solid rgb(30, 30, 30);
+    border-left: 0.5em solid $border-color;
 
     @media screen and (min-width: 1281px) {
         margin-left: 1em;
@@ -59,11 +59,19 @@ blockquote {
 }
 
 a {
-    color: #ffc0cb;
+    color: $link-color;
     
     &:visited {
-        color: #dda0dd;
+        color: $link-visited;
     }
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    margin-bottom: 15px;
 }
 
 ol,
@@ -76,6 +84,8 @@ td,
 th,
 li,
 dd {
+    margin-bottom: 10px;
+    line-height: 1.6em;
     overflow-wrap: break-word;
     word-wrap: break-word;
 }
@@ -86,6 +96,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-bottom: 0.6em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     font-weight: bold;
 }

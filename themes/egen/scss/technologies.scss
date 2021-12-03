@@ -61,7 +61,7 @@
     }
 
     a {
-        background: linear-gradient(to bottom right, rgb(100, 100, 100), rgb(40, 40, 40) 85%);
+        background: linear-gradient(to bottom right, $gradient-one, $gradient-two 85%);
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
         height: 250px;
         width: 250px;
