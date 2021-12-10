@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: $border-contrast;
+    flex: 0 0 auto;
+
+    @media screen and (min-width: 1281px) {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    p {
+        line-height: 32px;
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .social {
+        font-size: 2rem;
+    }
+
+    .icon-hold {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.social {
+    a {
+        display: inline-block;
+        height: 32px;
+    }
+}

@@ -1,0 +1,61 @@
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+.nav {
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1em 0;
+        list-style: none;
+    }
+    @media screen and (max-width: 768px) {
+        ul {
+            flex-direction: column;
+            padding-bottom: 1em;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                a {
+                    display: block;
+                    padding: 0.5em 0;
+                }
+            }
+        }
+    }
+}
+
+.nav ul li {
+    padding: 0 1em;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.header {
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.js {
+
+    @media screen and (max-width: 768px) {
+        .nav-toggle {
+            display: block;
+            float: right;
+            width: 2em;
+            margin: 0.6667em 0;
+            font-size: 1.5rem;
+            line-height: 2em;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}

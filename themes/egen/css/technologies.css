@@ -1,0 +1,70 @@
+.grid {
+  display: grid;
+  gap: 2em;
+  margin-bottom: 2em;
+}
+@media screen and (min-width: 1281px) {
+  .grid {
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 50px);
+    width: 1114px;
+  }
+  .grid h1 {
+    grid-column: 1/4;
+    grid-row: 1;
+    margin: 0;
+  }
+  .grid > p {
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .grid {
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(2, 50px);
+    width: 732px;
+  }
+  .grid h1 {
+    grid-column: 1/3;
+    grid-row: 1;
+    margin: 0;
+  }
+  .grid > p {
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: repeat(2, 50px);
+    width: 350px;
+  }
+  .grid h1 {
+    grid-row: 1;
+    margin-top: 10px;
+    font-family: "Lustria", "Times New Roman", Times, serif;
+  }
+  .grid > p {
+    grid-row: 2;
+    font-family: "Lustria", "Times New Roman", Times, serif;
+  }
+}
+.grid div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.grid a {
+  background: linear-gradient(to bottom right, #646464, #282828 85%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  height: 250px;
+  width: 250px;
+  padding: 50px;
+  font-family: "Aldrich", "Times New Roman", Times, serif;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=technologies.css.map */

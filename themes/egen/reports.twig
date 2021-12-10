@@ -1,0 +1,37 @@
+{% include 'incl/header.twig' %}
+
+<body>
+	<div class="centering">
+		<div class="restraint">
+			{% include 'incl/nav.twig' %}
+
+			<div class="main" role="main">
+				<div class="main-width techcontainer">
+					<div class="aside">
+						<div class="aside-style">
+							<h2>
+								Andra Rapporter
+							</h2>
+							<ul class="techlist">
+
+								{% for page in pages("analysis") %}
+									<li>
+										<a href="{{ page.url }}">
+											{{ page.title }}
+										</a>
+									</li>
+								{% endfor %}
+
+							</ul>
+						</div>
+					</div>
+					<div>
+						{{ content }}
+					</div>
+				</div>
+			</div>
+
+			{% include 'incl/footer.twig' %}
+		</div>
+	</div>
+</body>

@@ -1,0 +1,60 @@
+@mixin width($unit: 0) {
+    width: 100vw - $unit;
+}
+
+
+.centering {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media screen and (max-width: 1280px) {
+        min-height: 100vh;
+    }   
+}
+
+.restraint {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media screen and (min-width: 1281px) {
+        max-width: 1700px;
+        min-height: 100vh;
+    }
+}
+
+.main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @media screen and (min-width: 1281px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1280px) {
+        @include width();
+    }
+
+    @media screen and (max-width: 768px) {
+        @include width();
+
+        p {
+            margin-bottom: 20px;
+        }
+    }    
+}
+
+.main-width {
+    @media screen and (max-width: 1280px) {
+        @include width(5);
+    }   
+}
+
+.hidden {
+    display: none !important;
+}
