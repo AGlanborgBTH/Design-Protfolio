@@ -9,10 +9,10 @@ if (isset($_GET["action"])) {
     if ($_GET["action"] == "theme") {
         $previousValue = isset($_SESSION["theme"]) ? $_SESSION["theme"] : null;
 
-        if ($previousValue == "light") {
+        if ($previousValue == "dark") {
             unset($_SESSION["theme"]);
         } else {
-            $_SESSION["theme"] = "light";
+            $_SESSION["theme"] = "dark";
         }
 
         $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];

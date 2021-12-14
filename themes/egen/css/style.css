@@ -841,3 +841,22 @@ h6 {
     white-space: pre-wrap;
   }
 }
+
+@media screen and (min-width: 1281px) {
+  .sheet {
+    height: 400px;
+    width: 710px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .sheet {
+    height: 400px;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sheet {
+    height: 400px;
+    width: 350px;
+  }
+}
