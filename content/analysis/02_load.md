@@ -32,8 +32,8 @@ Resultat
 
 #### ICA
 
-<div class="imgRow">
-<div class="reportImg">
+<div class="imgrow">
+<div class="reportimg">
 <a href="%assets_url%/img/ica.PNG" target="_blank">
 <img src="%assets_url%/img/ica.PNG" alt="https://www.ica.se" title="ICA 12/12/2021">
 </a>
@@ -42,8 +42,8 @@ Resultat
 
 #### Willys
 
-<div class="imgRow">
-<div class="reportImg">
+<div class="imgrow">
+<div class="reportimg">
 <a href="%assets_url%/img/willys.PNG" target="_blank">
 <img src="%assets_url%/img/willys.PNG" alt="https://www.willys.se" title="Willys 14/12/2021">
 </a>
@@ -52,8 +52,8 @@ Resultat
 
 #### Coop
 
-<div class="imgRow">
-<div class="reportImg">
+<div class="imgrow">
+<div class="reportimg">
 <a href="%assets_url%/img/coop.PNG" target="_blank">
 <img src="%assets_url%/img/coop.PNG" alt="https://www.coop.se" title="Coop 12/12/2021">
 </a>

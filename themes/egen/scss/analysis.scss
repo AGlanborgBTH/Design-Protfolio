@@ -1,10 +1,10 @@
-.reportBox {
+.reportbox {
     margin: auto;
     height: 50px;
     width: 50px;
 }
 
-.reportImg {
+.reportimg {
     border: outset 10px $border-color;
     
     @media screen and (min-width: 1281px) {
@@ -23,7 +23,7 @@
     }
 }
 
-.imgRow {
+.imgrow {
     display: flex;
 
     @media screen and (min-width: 1281px) {
@@ -35,16 +35,14 @@
     }
 }
 
-.typsnittTable {
+.typsnitttable {
     margin: 10px;
     border-width: 1px;
     border-style: solid;
     border-color: $border-color;
 
-    thead {
-        td {
-            background-color: $background-lighter;
-        }
+    thead td {
+        background-color: $background-lighter;
     }
 
     td {

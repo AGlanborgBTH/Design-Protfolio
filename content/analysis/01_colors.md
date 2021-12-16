@@ -44,7 +44,7 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 
 #### Spotify typsnitt
 
-<table class="typsnittTable">
+<table class="typsnitttable">
 <thead>
 <tr>
 <td>h1</td>
@@ -72,10 +72,10 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td><div class="reportBox" style="background-color: #121212">
-<td><div class="reportBox" style="background-color: #fff">
-<td><div class="reportBox" style="background-color: #1ed760">
-<td><div class="reportBox" style="background-color: #004daa">
+<td><div class="reportbox" style="background-color: #121212">
+<td><div class="reportbox" style="background-color: #fff">
+<td><div class="reportbox" style="background-color: #1ed760">
+<td><div class="reportbox" style="background-color: #004daa">
 </tr>
 <tr>
 <td>#121212
@@ -85,13 +85,13 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 </tr>
 </table>
 
-<div class="imgRow">
-<div class="reportImg">
+<div class="imgrow">
+<div class="reportimg">
 <a href="%assets_url%/img/spotify1.PNG" target="_blank">
 <img src="%assets_url%/img/spotify1.PNG" alt="https://www.spotify.com/se/" title="Spotify 28/11/2021">
 </a>
 </div>
-<div class="reportImg">
+<div class="reportimg">
 <a href="%assets_url%/img/spotify2.PNG" target="_blank">
 <img src="%assets_url%/img/spotify2.PNG" alt="https://www.spotify.com/se/premium/" title="Spotify 28/11/2021">
 </a>
@@ -102,7 +102,7 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 
 #### iTunes typsnitt
 
-<table class="typsnittTable">
+<table class="typsnitttable">
 <thead>
 <tr>
 <td>h1</td>
@@ -130,9 +130,9 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td><div class="reportBox" style="background-color: #fbfbfd">
-<td><div class="reportBox" style="background-color: #000">
-<td><div class="reportBox" style="background-color: #2997ff">
+<td><div class="reportbox" style="background-color: #fbfbfd">
+<td><div class="reportbox" style="background-color: #000">
+<td><div class="reportbox" style="background-color: #2997ff">
 </tr>
 <tr>
 <td>#fbfbfd
@@ -141,13 +141,13 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 </tr>
 </table>
 
-<div class="imgRow">
-<div class="reportImg">
+<div class="imgrow">
+<div class="reportimg">
 <a href="%assets_url%/img/iTunes.PNG" target="_blank">
 <img src="%assets_url%/img/iTunes.PNG" alt="https://www.apple.com/itunes/" title="Apple 28/11/2021">
 </a>
 </div>
-<div class="reportImg">
+<div class="reportimg">
 <a href="%assets_url%/img/apple.PNG" target="_blank">
 <img src="%assets_url%/img/apple.PNG" alt="https://www.apple.com" title="Apple 29/11/2021">
 </a>
@@ -158,7 +158,7 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 
 #### YouTube Music typsnitt
 
-<table class="typsnittTable">
+<table class="typsnitttable">
 <thead>
 <tr>
 <td>h1</td>
@@ -186,8 +186,8 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td><div class="reportBox" style="background-color: #000">
-<td><div class="reportBox" style="background-color: #fff">
+<td><div class="reportbox" style="background-color: #000">
+<td><div class="reportbox" style="background-color: #fff">
 </tr>
 <tr>
 <td>#000
@@ -195,7 +195,7 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 </tr>
 </table>
 
-<div class="reportImg">
+<div class="reportimg">
 <a href="%assets_url%/img/youtube_music.PNG" target="_blank">
 <img src="%assets_url%/img/youtube_music.PNG" alt="https://music.youtube.com/" title="YouTube Music 28/11/2021">
 </a>
