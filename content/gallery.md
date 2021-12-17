@@ -9,7 +9,7 @@ Gallery
 
 Här presenteras de bilder jag hittade online
 
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-daniel-frese.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic11.jpg">
@@ -18,7 +18,7 @@ Här presenteras de bilder jag hittade online
         </picture>
     </a>
 </div>
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-dominika-roseclay.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic21.jpg">
@@ -27,7 +27,7 @@ Här presenteras de bilder jag hittade online
         </picture>
     </a>
 </div>
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-irina-iriser.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic31.jpg">
@@ -36,7 +36,7 @@ Här presenteras de bilder jag hittade online
         </picture>
     </a>
 </div>
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-julia-sakelli.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic41.jpg">
@@ -45,7 +45,7 @@ Här presenteras de bilder jag hittade online
         </picture>
     </a>
 </div>
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-leah-kelley.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic51.jpg">
@@ -54,7 +54,7 @@ Här presenteras de bilder jag hittade online
         </picture>
     </a>
 </div>
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-lumn.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic61.jpg">
@@ -63,7 +63,7 @@ Här presenteras de bilder jag hittade online
         </picture>
     </a>
 </div>
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-muhammad-khairul-iddin-adnan.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic71.jpg">
@@ -72,7 +72,7 @@ Här presenteras de bilder jag hittade online
         </picture>
     </a>
 </div>
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-nandhu-kumar.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic81.jpg">
@@ -81,7 +81,7 @@ Här presenteras de bilder jag hittade online
         </picture>
     </a>
 </div>
-<div>
+<div class="gallerycontent">
     <a href="%assets_url%/img/pexels-scott-webb.jpg" target="_blank">
         <picture>
             <source media="(max-width: 768px)" srcset="%assets_url%/img/pic91.jpg">
@@ -89,4 +89,7 @@ Här presenteras de bilder jag hittade online
             <img src="%assets_url%/img/pexels-scott-webb.jpg" alt="Picture by Scott Webb">
         </picture>
     </a>
+</div>
+<div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ajrz3JPig0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

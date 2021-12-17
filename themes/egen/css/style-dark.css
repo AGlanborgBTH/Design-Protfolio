@@ -878,6 +878,15 @@ h6 {
     grid-column: 1/4;
     grid-row: 2;
   }
+  .gallerygrid .youtube {
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+  }
+  .gallerygrid .youtube iframe {
+    height: 394px;
+    width: 700px;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .gallerygrid {
@@ -893,6 +902,15 @@ h6 {
   .gallerygrid > p {
     grid-column: 1/3;
     grid-row: 2;
+  }
+  .gallerygrid .youtube {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+  }
+  .gallerygrid .youtube iframe {
+    height: 394px;
+    width: 700px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -910,21 +928,26 @@ h6 {
     grid-row: 2;
     font-family: "Lustria", "Times New Roman", Times, serif;
   }
+  .gallerygrid iframe {
+    height: 197px;
+    width: 350px;
+  }
 }
-.gallerygrid div {
+.gallerygrid .gallerycontent {
   display: flex;
   flex-direction: row;
   justify-content: center;
   border: 5px outset #505050;
 }
 @media screen and (max-width: 768px) {
-  .gallerygrid div {
+  .gallerygrid .gallerycontent {
     height: 250px;
     width: 250px;
+    margin: auto;
   }
 }
 @media screen and (min-width: 769px) {
-  .gallerygrid div {
+  .gallerygrid .gallerycontent {
     height: 350px;
     width: 350px;
   }
