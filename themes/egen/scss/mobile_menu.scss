@@ -10,6 +10,14 @@
         padding: 1em 0;
         list-style: none;
     }
+
+    li {
+        border-radius: 5px;
+        background-color: $background-addapt;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
     @media screen and (max-width: 768px) {
         ul {
             flex-direction: column;
@@ -30,7 +38,7 @@
 }
 
 .nav ul li {
-    padding: 0 1em;
+    padding: 5px 1em;
 }
 
 .nav-toggle {

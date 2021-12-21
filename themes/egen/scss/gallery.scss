@@ -6,7 +6,7 @@
     @media screen and (min-width: 1281px) {
         grid-template-columns: repeat(3, 350px);
         grid-template-rows: repeat(2, 50px);
-        width: 1114px;
+        width: 1130px;
 
         h1 {
             grid-column: 1 / 4;
@@ -86,6 +86,7 @@
         flex-direction: row;
         justify-content: center;
         border: 5px outset $gallery-border;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 
         @media screen and (max-width: 768px) {
             height: 250px;
@@ -121,5 +122,10 @@
             height: 350px;
             width: 350px;
         }
+    }
+
+    iframe {
+        border: 5px outset $gallery-border;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     }
 }

@@ -8,6 +8,10 @@ Urval
 
 Berätta vilka webbplatser du valt att undersöka och varför eller hur du gick tillväga när du gjorde ditt urval.
 
+1. https://avrillavigne.com/
+2. https://www.edsheeran.com/equals?ref=https://www.google.com/
+3. https://www.ariesofwunderworld.com/
+
 Metod
 -----------------------
 

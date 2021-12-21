@@ -91,5 +91,5 @@ Här presenteras de bilder jag hittade online
     </a>
 </div>
 <div class="youtube">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ajrz3JPig0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-Ajrz3JPig0" title="YouTube video player" allowfullscreen></iframe>
 </div>
