@@ -18,6 +18,10 @@
         margin-right: 5px;
     }
 
+    li.active {
+        background-color: $background-reverse;
+    }
+
     @media screen and (max-width: 768px) {
         ul {
             flex-direction: column;

@@ -404,6 +404,7 @@ template {
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: #0a0a0a;
+  border-bottom-width: 0;
   flex: 0 0 auto;
 }
 @media screen and (min-width: 1281px) {
@@ -420,11 +421,12 @@ template {
 }
 .footer p {
   line-height: 32px;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0;
 }
 .footer .social {
-  font-size: 2rem;
+  margin-top: 4px;
+  font-size: 27px;
 }
 .footer .icon-hold {
   display: flex;
@@ -436,18 +438,11 @@ template {
   height: 32px;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   font-family: "Lustria", "Quantico", sans-serif;
   line-height: 1.5rem;
   background-color: gainsboro;
   color: #141414;
-  margin: 0;
-  padding: 0;
-  height: 100%;
 }
 
 img {
@@ -616,6 +611,9 @@ h6 {
   background-color: gainsboro;
   margin-left: 5px;
   margin-right: 5px;
+}
+.nav li.active {
+  background-color: #f0f0f0;
 }
 @media screen and (max-width: 768px) {
   .nav ul {
