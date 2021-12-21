@@ -4,7 +4,7 @@ Description: Design principles
 Template: reports
 ---
 
-Titel på rapporten
+Design principles
 =======================
 
 Dagens hemsidor kräver en bra design för att behålla användarnas uppmärksamhet tillräckligt länge för att de ska hinna hitta den informationen de söker.
