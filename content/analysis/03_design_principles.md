@@ -29,19 +29,27 @@ Ta en bild eller screenshot av sidorna och sedan anteckna om sidorna använder n
 Resultat
 -----------------------
 
-#### Arvil Lavigne
+### Arvil Lavigne
 
 <div class="imgrow">
-<div class="reportimg">
-<a href="%assets_url%/img/arvil1.PNG" target="_blank">
-<img src="%assets_url%/img/arvil1.PNG" alt="https://avrillavigne.com/" title="Arvil Lavigne 21/12/2021">
-</a>
-</div>
-<div class="reportimg">
-<a href="%assets_url%/img/arvil2.PNG" target="_blank">
-<img src="%assets_url%/img/arvil2.PNG" alt="https://avrillavigne.com/" title="Arvil Lavigne 21/12/2021">
-</a>
-</div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/arvil1.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/arvil11.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/arvil12.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/arvil1.PNG" alt="https://avrillavigne.com/" title="Arvil Lavigne 21/12/2021">
+            </picture>
+        </a>
+    </div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/arvil2.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/arvil21.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/arvil22.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/arvil2.PNG" alt="https://avrillavigne.com/" title="Arvil Lavigne 21/12/2021">
+            </picture>
+        </a>
+    </div>
 </div>
 
 Arvil Lavignes hemsida är en typisk artists hemsida, med innehåll av turneringsdatum, musikvideos, foton och handelsvaror som hon säljer. Sultsatsen, baserat på innehållet, är att den är gjord för att marknadsföra Arvil Lavignes musik och andra produkter hon stödjer.
@@ -58,14 +66,18 @@ Arvil Lavignes hemsida innehåller designvalen:
 - Contrast | De använder en röd kontrast från det blå färgtemat
 - Framing | Några delar av sidan använder framing för att betona innehållet
 
-#### Ed Sheeran
+### Ed Sheeran
 
 <div class="imgrow">
-<div class="reportimg">
-<a href="%assets_url%/img/sheeran1.PNG" target="_blank">
-<img src="%assets_url%/img/sheeran1.PNG" alt="https://www.edsheeran.com/" title="Ed Sheeran 21/12/2021">
-</a>
-</div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/sheeran1.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/sheeran11.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/sheeran12.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/sheeran1.PNG" alt="https://www.edsheeran.com/" title="Ed Sheeran 21/12/2021">
+            </picture>
+        </a>
+    </div>
 </div>
 
 Ed Sheerans hemsida är en mindre sida än vad en typisk artists hemsida är. Den innehåller musikvideos och handelsvaror som han säljer. Sultsatsen, baserat på innehållet, är att den är gjord för att marknadsföra Ed Sheerans musik och andra produkter hon stödjer.
@@ -89,14 +101,18 @@ Ed Sheerans hemsida innehåller designvalen:
 - Movement | De använder rörelse för att skapa extra intresse i de produkter de har på sidan
 - Depth | Grid, förgval och transparation skapar en illusion av djup på sidan
 
-#### Aries
+### Aries
 
 <div class="imgrow">
-<div class="reportimg">
-<a href="%assets_url%/img/aries1.PNG" target="_blank">
-<img src="%assets_url%/img/aries1.PNG" alt="https://www.ariesofwunderworld.com/" title="Aries 21/12/2021">
-</a>
-</div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/aries1.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/aries11.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/aries12.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/aries1.PNG" alt="https://www.ariesofwunderworld.com/" title="Aries 21/12/2021">
+            </picture>
+        </a>
+    </div>
 </div>
 
 Aries hemsida är en liten sida. Den innehåller länkar till musik och musikvideos, och den innehåller turnerings datum och produkter han säljer. Sultsatsen, baserat på innehållet, är att den är gjord för att marknadsföra Aries musik och andra produkter hon stödjer.
@@ -118,7 +134,7 @@ Aries hemsida innehåller designvalen:
 Analys
 -----------------------
 
-#### Artisterna
+### Artisterna
 
 Alla tre sidor är gjorda av samma motiveringar, men de använder olika typer av design för att forma en bra sida.
 
@@ -134,7 +150,7 @@ Ed Sheerans sida är gjord på ett som ska motivera användaren att konsumera me
 
 Aries hemsida sticker ut mest från dessa tre sidor. Till skillnad från både Arvil Lavigne och Ed Sheeran så säljer Aries inga produkter på hans första sida, inte ens hans musik. Aries har en sida som är gjord för korta besök av användare. Det är för att den pressenterar all information sidan bär på ett ställe och den presenterar informationen tydligt, i några få kategorier.
 
-#### Laboranten
+### Laboranten
 
 **Följande segment innehåller ingen information relaterat till laborationen**
 

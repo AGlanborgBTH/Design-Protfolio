@@ -30,39 +30,51 @@ På varje sida sen:
 Resultat
 -----------------------
 
-#### ICA
+### ICA
 
 <div class="imgrow">
-<div class="reportimg">
-<a href="%assets_url%/img/ica.PNG" target="_blank">
-<img src="%assets_url%/img/ica.PNG" alt="https://www.ica.se" title="ICA 12/12/2021">
-</a>
-</div>
-</div>
-
-#### Willys
-
-<div class="imgrow">
-<div class="reportimg">
-<a href="%assets_url%/img/willys.PNG" target="_blank">
-<img src="%assets_url%/img/willys.PNG" alt="https://www.willys.se" title="Willys 14/12/2021">
-</a>
-</div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/ica.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/ica1.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/ica2.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/ica.PNG" alt="https://www.ica.se" title="ICA 12/12/2021">
+            </picture>
+        </a>
+    </div>
 </div>
 
-#### Coop
+### Willys
 
 <div class="imgrow">
-<div class="reportimg">
-<a href="%assets_url%/img/coop.PNG" target="_blank">
-<img src="%assets_url%/img/coop.PNG" alt="https://www.coop.se" title="Coop 12/12/2021">
-</a>
-</div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/willys.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/willys1.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/willys2.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/willys.PNG" alt="https://www.willys.se" title="Willys 14/12/2021">
+            </picture>
+        </a>
+    </div>
 </div>
 
-#### Prestation
+### Coop
 
-<iframe class="sheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSahQdX7XQe53ivH7f12IAmmB9kavN1f5gJUGZQVFCNgRjZy3nbGnBP4vVmm9Vpvsr-EcvnEppiDPsT/pubhtml?widget=true&amp;headers=false"></iframe>
+<div class="imgrow">
+    <div class="reportimg">
+        <a href="%assets_url%/img/coop.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/coop1.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/coop2.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/coop.PNG" alt="https://www.coop.se" title="Coop 12/12/2021">
+            </picture>
+        </a>
+    </div>
+</div>
+
+### Prestation
+
+<iframe class="sheet" title="Prestation resultat" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSahQdX7XQe53ivH7f12IAmmB9kavN1f5gJUGZQVFCNgRjZy3nbGnBP4vVmm9Vpvsr-EcvnEppiDPsT/pubhtml?widget=true&amp;headers=false"></iframe>
 
 Analys
 -----------------------

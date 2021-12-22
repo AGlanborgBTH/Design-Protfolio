@@ -86,16 +86,24 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 </table>
 
 <div class="imgrow">
-<div class="reportimg">
-<a href="%assets_url%/img/spotify1.PNG" target="_blank">
-<img src="%assets_url%/img/spotify1.PNG" alt="https://www.spotify.com/se/" title="Spotify 28/11/2021">
-</a>
-</div>
-<div class="reportimg">
-<a href="%assets_url%/img/spotify2.PNG" target="_blank">
-<img src="%assets_url%/img/spotify2.PNG" alt="https://www.spotify.com/se/premium/" title="Spotify 28/11/2021">
-</a>
-</div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/spotify1.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/spotify11.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/spotify12.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/spotify1.PNG" alt="https://www.spotify.com/se/" title="Spotify 28/11/2021">
+            </picture>
+        </a>
+    </div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/spotify2.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/spotify21.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/spotify22.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/spotify2.PNG" alt="https://www.spotify.com/se/premium/" title="Spotify 28/11/2021">
+            </picture>
+        </a>
+    </div>
 </div>
 
 ### Apple/iTunes
@@ -142,16 +150,24 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 </table>
 
 <div class="imgrow">
-<div class="reportimg">
-<a href="%assets_url%/img/iTunes.PNG" target="_blank">
-<img src="%assets_url%/img/iTunes.PNG" alt="https://www.apple.com/itunes/" title="Apple 28/11/2021">
-</a>
-</div>
-<div class="reportimg">
-<a href="%assets_url%/img/apple.PNG" target="_blank">
-<img src="%assets_url%/img/apple.PNG" alt="https://www.apple.com" title="Apple 29/11/2021">
-</a>
-</div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/iTunes.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/iTunes1.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/iTunes2.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/iTunes.PNG" alt="https://www.apple.com/itunes/" title="Apple 28/11/2021">
+            </picture>
+        </a>
+    </div>
+    <div class="reportimg">
+        <a href="%assets_url%/img/apple.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/apple1.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/apple2.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/apple.PNG" alt="https://www.apple.com" title="Apple 29/11/2021">
+            </picture>
+        </a>
+    </div>
 </div>
 
 ### YouTube Music
@@ -195,10 +211,16 @@ Färgpletterna som varje sida använder pressenteras i ordning från vänster si
 </tr>
 </table>
 
-<div class="reportimg">
-<a href="%assets_url%/img/youtube_music.PNG" target="_blank">
-<img src="%assets_url%/img/youtube_music.PNG" alt="https://music.youtube.com/" title="YouTube Music 28/11/2021">
-</a>
+<div class="imgrow">
+    <div class="reportimg">
+        <a href="%assets_url%/img/youtube_music.PNG" target="_blank">
+            <picture>
+                <source srcset="%assets_url%/img/youtube_music1.png" media="(min-width: 769px)">
+                <source srcset="%assets_url%/img/youtube_music2.png" media="(max-width: 768px)">
+                <img src="%assets_url%/img/youtube_music.PNG" alt="https://music.youtube.com/" title="YouTube Music 28/11/2021">
+            </picture>
+        </a>
+    </div>
 </div>
 
 Skillnaden mellan varje hemsida var minimal, angående valet av färger. All tre använde sig av en dominant kombination av: mörk-, svart-färg, tillsammans med en ljus-, vit-färg.
@@ -212,7 +234,7 @@ iTunes/Apple använde den blå färgen som en highlighter för länkar och andra
 Analys
 -----------------------
 
-#### Typsnitt
+### Typsnitt
 
 Många av typsnitten som var hittade i på varje sida var välldigt varierande för varje heading och paragraf.
 
@@ -228,7 +250,7 @@ Alla tre sidor använder sans-serif som ett sissta alternativ av font. Det är m
 
 Anledningen till att alla tre sidor väljer att använda sans-serif är mest troligen för att de vill ge en känsla av att de säljer vardagliga produkter som man kan använda i det vardagliga livet, och inte produkter som tillhör kontor-miljöer
 
-#### Färgschema
+### Färgschema
 
 Alla tre sidor valde att använda kontrasta färger som lyfter fram innehållet och klickbara element. Ingen av sidorna valde att leda användaren genom hemsidan med olika lager, färger eller mönster. Alla tre presenterade låtar och album på en enfärgig bakgrund. Vilket låter låtarna och albumen, samt användaren själv, bestämma vad som hamnar i fokus. Pressentationen av alla låtar och album, den enfärgiga bakgrunden och algorytmen (som varje hemsida använder) skapar en unik upplevse för alla användare.
 

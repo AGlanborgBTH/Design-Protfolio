@@ -793,18 +793,34 @@ h6 {
   .reportimg {
     margin-right: 20px;
     width: 500px;
+    height: 250px;
+  }
+  .reportimg img {
+    width: 500px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .reportimg {
     margin-top: 20px;
     width: 500px;
+    height: 250px;
+  }
+  .reportimg img {
+    width: 500px;
+    height: 250px;
   }
 }
 @media screen and (max-width: 768px) {
   .reportimg {
+    margin: auto;
     margin-top: 20px;
     width: 300px;
+    height: 150px;
+  }
+  .reportimg img {
+    width: 300px;
+    height: 150px;
   }
 }
 
